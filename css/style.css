@@ -81,7 +81,7 @@ p {
 }
 
 .border-bottom {
-  border: 1px dashed #B0BBC9;
+  border: 1px dashed #B0BBC9 !important;
 }
 
 .border-end {
@@ -326,41 +326,37 @@ input {
   color: #B0BBC9;
 }
 
-.testimonials .owl-carousel .item {
-  max-width: 666px;
-  width: 666px;
-}
-.testimonials .testimonials-nav-container .owl-prev {
+.testimonials .owl-carousel .testimonials-nav-container .owl-prev {
   content: "";
   border: none;
   background-color: transparent;
   color: #000000;
-  font-size: 60px;
+  font-size: 26px;
   position: absolute;
-  top: 150px;
+  top: 15%;
   width: auto;
   padding: 0;
-  left: 5px;
+  left: 0;
 }
 @media (max-width: 992px) {
-  .testimonials .testimonials-nav-container .owl-prev {
+  .testimonials .owl-carousel .testimonials-nav-container .owl-prev {
     top: initial;
     position: static;
   }
 }
-.testimonials .testimonials-nav-container .owl-next {
+.testimonials .owl-carousel .testimonials-nav-container .owl-next {
   content: "";
   border: none;
   background-color: transparent;
   color: #000000;
   padding: 0;
-  font-size: 60px;
+  font-size: 26px;
   position: absolute;
-  top: 150px;
-  right: 5px;
+  top: 15%;
+  right: 0;
 }
 @media (max-width: 992px) {
-  .testimonials .testimonials-nav-container .owl-next {
+  .testimonials .owl-carousel .testimonials-nav-container .owl-next {
     top: initial;
     position: static;
   }

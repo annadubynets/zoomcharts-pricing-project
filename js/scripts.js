@@ -25,19 +25,12 @@ if ($('.company .owl-carousel').length > 0) {
 if ($('.testimonials .owl-carousel').length > 0) {
     $('.testimonials .owl-carousel').owlCarousel({
         loop: true,
-        margin: 30,
-        responsiveClass: true,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         nav: true,
+        items: 1,
         navContainer: ".testimonials-nav-container",
-        autoWidth: true,
-        autoHeight: true,
-        responsive: {
-            0: {
-                items: 1
-            }
-        }
+        singleItem: true,
     })
 }
 
