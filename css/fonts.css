@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Medium.eot');
+    src: url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaPT-Medium.woff2') format('woff2'), url('../fonts/FuturaPT-Medium.woff') format('woff'), url('../fonts/FuturaPT-Medium.ttf') format('truetype'), url('../fonts/FuturaPT-Medium.svg#FuturaPT-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-MediumObl.eot');
+    src: url('../fonts/FuturaPT-MediumObl.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaPT-MediumObl.woff2') format('woff2'), url('../fonts/FuturaPT-MediumObl.woff') format('woff'), url('../fonts/FuturaPT-MediumObl.ttf') format('truetype'), url('../fonts/FuturaPT-MediumObl.svg#FuturaPT-MediumObl') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('../fonts/FuturaPT-Book.eot');
+    src: url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaPT-Book.woff2') format('woff2'), url('../fonts/FuturaPT-Book.woff') format('woff'), url('../fonts/FuturaPT-Book.ttf') format('truetype'), url('../fonts/FuturaPT-Book.svg#FuturaPT-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Bold.eot');
+    src: url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/FuturaPT-Bold.woff2') format('woff2'), url('../fonts/FuturaPT-Bold.woff') format('woff'), url('../fonts/FuturaPT-Bold.ttf') format('truetype'), url('../fonts/FuturaPT-Bold.svg#FuturaPT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather-Italic.eot');
+    src: url('../fonts/Merriweather-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/Merriweather-Italic.woff2') format('woff2'), url('../fonts/Merriweather-Italic.woff') format('woff'), url('../fonts/Merriweather-Italic.ttf') format('truetype'), url('../fonts/Merriweather-Italic.svg#Merriweather-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?dsgp63');
+    src: url('../fonts/icomoon.eot?dsgp63#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?dsgp63') format('truetype'), url('../fonts/icomoon.woff?dsgp63') format('woff'), url('../fonts/icomoon.svg?dsgp63#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-information:before {
+    content: "\e900";
+    color: #b0bbc9;
+}
+
+.icon-plus:before {
+    content: "\e901";
+    color: #edc821;
+}
+
+.icon-user:before {
+    content: "\e902";
+    color: #edc821;
+}
+
+.icon-arrow-up:before {
+    content: "\e908";
+    color: #bbb;
+}
+
+.icon-arrow-down:before {
+    content: "\e903";
+}
+
+.icon-arrow-next:before {
+    content: "\e904";
+}
+
+.icon-arrow-prev:before {
+    content: "\e905";
+}
+
+.icon-check:before {
+    content: "\e906";
+}
+
+.icon-close:before {
+    content: "\e907";
+    color: #b0bbc9;
+}
