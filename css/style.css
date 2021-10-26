@@ -338,12 +338,6 @@ input {
   padding: 0;
   left: 0;
 }
-@media (max-width: 992px) {
-  .testimonials .owl-carousel .testimonials-nav-container .owl-prev {
-    top: initial;
-    position: static;
-  }
-}
 .testimonials .owl-carousel .testimonials-nav-container .owl-next {
   content: "";
   border: none;
@@ -354,12 +348,6 @@ input {
   position: absolute;
   top: 15%;
   right: 0;
-}
-@media (max-width: 992px) {
-  .testimonials .owl-carousel .testimonials-nav-container .owl-next {
-    top: initial;
-    position: static;
-  }
 }
 
 .ready-to-start {
@@ -415,11 +403,11 @@ input {
 
 @media (max-width: 992px) {
   h1 {
-    font-size: 50px !important;
+    font-size: 45px !important;
   }
 
   h2 {
-    font-size: 25px !important;
+    font-size: 24px !important;
   }
 
   h3 {
@@ -429,7 +417,7 @@ input {
   }
 
   p {
-    font-size: 16px !important;
+    font-size: 18px !important;
   }
 
   .font-size-25px {
@@ -440,12 +428,34 @@ input {
     font-size: 18px !important;
   }
 
+  .font-size-35px {
+    font-size: 30px !important;
+  }
+
+  .font-size-70px {
+    font-size: 55px !important;
+  }
+
   .main-description {
     font-size: 16px !important;
   }
 
   .subtitle {
     font-size: 16px !important;
+  }
+
+  .accordion-button {
+    font-size: 18px;
+  }
+  .accordion-button::after {
+    font-size: 10px;
+  }
+
+  .accordion-body {
+    font-size: 16px;
+  }
+  .accordion-body .request-link {
+    font-size: 16px;
   }
 
   .shadow-bg {
@@ -455,23 +465,18 @@ input {
     border-radius: 0 !important;
   }
 
-  .testimonials .owl-carousel .item {
-    max-width: 320px;
-    width: 320px;
-  }
-
   .list-items li {
-    font-size: 16px !important;
-  }
-
-  .img-style {
-    width: 60px;
+    font-size: 20px !important;
   }
 }
 @media (max-width: 1200px) {
   .btn-primary {
-    font-size: 16px !important;
-    padding: 12px 20px;
+    font-size: 18px !important;
+    padding: 9px 20px;
+  }
+
+  .pt-150px {
+    padding-top: 70px;
   }
 
   .pt-110px {
