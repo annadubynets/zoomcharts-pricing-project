@@ -201,6 +201,12 @@ a {
   background-color: #FFFFFF;
   border: 2px solid #EDEFF3;
 }
+.pricing .dropdown-toggle span {
+  color: #EDC821;
+}
+.pricing .dropdown-toggle span.icon-information {
+  color: #B0BBC9;
+}
 .pricing .dropdown-toggle::after {
   border: none;
   content: "";
@@ -312,6 +318,9 @@ input {
   color: #000000;
   list-style-type: none;
 }
+.list-items li.inactive {
+  color: #B0BBC9;
+}
 
 .testimonials .owl-carousel .item {
   max-width: 666px;
@@ -387,6 +396,7 @@ input {
 .accordion-button:not(.collapsed) {
   color: #000000;
   background-color: transparent;
+  box-shadow: none;
 }
 .accordion-button:not(.collapsed):after {
   background-image: none;
