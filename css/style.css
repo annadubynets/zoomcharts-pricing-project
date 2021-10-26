@@ -436,6 +436,14 @@ input {
     font-size: 55px !important;
   }
 
+  .hero {
+    padding-top: 110px;
+  }
+
+  .pricing {
+    background: linear-gradient(to bottom, #292929 5%, #FFFFFF 5%);
+  }
+
   .main-description {
     font-size: 16px !important;
   }
@@ -477,6 +485,10 @@ input {
 
   .pt-150px {
     padding-top: 70px;
+  }
+
+  .pb-150px {
+    padding-bottom: 70px;
   }
 
   .pt-110px {
@@ -538,7 +550,7 @@ input {
     height: 20px;
   }
 
-  .hero a {
+  .hero .review-link {
     font-size: 14px !important;
   }
 
