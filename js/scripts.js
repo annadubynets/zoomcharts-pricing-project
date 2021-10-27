@@ -3,13 +3,14 @@ if ($('.company .owl-carousel').length > 0) {
         loop: true,
         margin: 20,
         responsiveClass: true,
-        autoplay: true,
+        autoplay: false,
         dots: false,
         nav: false,
         autoWidth: true,
         responsive: {
             0: {
                 items: 5,
+                autoplay: true,
                 stagePadding: 60,
             },
             768: {
