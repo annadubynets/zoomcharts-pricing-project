@@ -10,6 +10,10 @@ $yellow: #EDC821;
 $white: #FFFFFF;
 $whitesmoke: #FCFCFC;
 $grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px);
+.font-family-second {
+    font-family: 'Merriweather';
+}
+
 h1 {
     font-weight: 700;
     font-size: 57px;

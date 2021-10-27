@@ -3,6 +3,10 @@
 @import "./bootstrap-select.min.css";
 @import "./owl.carousel.min.css";
 @import "fonts.css";
+.font-family-second {
+  font-family: "Merriweather";
+}
+
 h1 {
   font-weight: 700;
   font-size: 57px;
