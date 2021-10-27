@@ -25,7 +25,7 @@ if ($('.company .owl-carousel').length > 0) {
 if ($('.testimonials .owl-carousel').length > 0) {
     $('.testimonials .owl-carousel').owlCarousel({
         loop: true,
-        autoplay: false,
+        autoplay: true,
         dots: false,
         nav: true,
         items: 1,
