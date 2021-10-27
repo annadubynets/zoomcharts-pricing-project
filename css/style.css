@@ -122,6 +122,10 @@ a {
   cursor: pointer;
 }
 
+sup {
+  top: -1.5em;
+}
+
 .navbar {
   padding: 12px 0;
   background: rgba(0, 0, 0, 0.84);
