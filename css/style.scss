@@ -329,6 +329,9 @@ input {
     p {
         font-size: 18px!important;
     }
+    .font-size-26px {
+        font-size: 16px!important;
+    }
     .font-size-35px {
         font-size: 30px!important;
     }
@@ -401,7 +404,6 @@ input {
         }
     }
     .list-items {
-        padding-left: 40px;
         li {
             &::before {
                 width: 10px;
