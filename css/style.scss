@@ -39,7 +39,6 @@ sup {
     border: 2px solid #EDEFF3;
     box-sizing: border-box;
     border-radius: 5px;
-    text-transform: uppercase;
     &:hover {
         background-color: transparent;
         border: 2px solid $yellow;
@@ -84,6 +83,11 @@ sup {
     }
     .bootstrap-select {
         width: 100%!important;
+        .dropdown-menu {
+            span {
+                display: none;
+            }
+        }
     }
     .btn-check:active+.btn-light:focus,
     .btn-check:checked+.btn-light:focus,
@@ -119,6 +123,14 @@ sup {
     }
 }
 
+// select {
+//     background: #FFFFFF;
+//     border: 2px solid #EDEFF3;
+//     box-sizing: border-box;
+//     border-radius: 5px;
+//     padding: 14px 20px;
+//     font-size: 22px;
+// }
 .request-link {
     font-weight: normal;
     font-size: 26px;

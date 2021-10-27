@@ -144,7 +144,6 @@ sup {
   border: 2px solid #EDEFF3;
   box-sizing: border-box;
   border-radius: 5px;
-  text-transform: uppercase;
 }
 .btn-light:hover {
   background-color: transparent;
@@ -190,6 +189,9 @@ sup {
 }
 .pricing .bootstrap-select {
   width: 100% !important;
+}
+.pricing .bootstrap-select .dropdown-menu span {
+  display: none;
 }
 .pricing .btn-check:active + .btn-light:focus,
 .pricing .btn-check:checked + .btn-light:focus,
