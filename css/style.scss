@@ -200,6 +200,10 @@ input {
     width: 30px;
 }
 
+.main-description {
+    font-size: 26px;
+}
+
 .hero {
     background-color: #292929;
     padding-top: 166px;
@@ -330,7 +334,7 @@ input {
         margin-bottom: 24px;
     }
     p {
-        font-size: 18px!important;
+        font-size: 20px!important;
     }
     .font-size-26px {
         font-size: 16px!important;
@@ -391,9 +395,6 @@ input {
     }
     .font-size-24px {
         font-size: 22px!important;
-    }
-    .font-size-20px {
-        font-size: 14px!important;
     }
     .badge {
         font-size: 12px!important;
