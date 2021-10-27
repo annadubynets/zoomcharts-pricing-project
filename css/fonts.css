@@ -45,8 +45,8 @@
 
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?dsgp63');
-    src: url('../fonts/icomoon.eot?dsgp63#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?dsgp63') format('truetype'), url('../fonts/icomoon.woff?dsgp63') format('woff'), url('../fonts/icomoon.svg?dsgp63#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?595efm');
+    src: url('../fonts/icomoon.eot?595efm#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?595efm') format('truetype'), url('../fonts/icomoon.woff?595efm') format('woff'), url('../fonts/icomoon.svg?595efm#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -65,6 +65,16 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-minus:before {
+    content: "\e909";
+    color: #edc821;
+}
+
+.icon-star:before {
+    content: "\e90a";
+    color: #edc821;
 }
 
 .icon-information:before {
