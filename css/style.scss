@@ -46,15 +46,6 @@ a {
     }
 }
 
-.btn-outline-dark {
-    font-weight: 700;
-    font-size: 20px;
-    color: $black;
-    padding: 15px 20px;
-    background: #FFFFFF;
-    border-radius: 10px;
-}
-
 .tooltip-inner {
     max-width: 245px;
     font-weight: normal;
@@ -66,6 +57,14 @@ a {
 
 .pricing {
     background: linear-gradient(to bottom, #292929 30%, $white 30%);
+    label {
+        font-weight: 700;
+        font-size: 20px;
+        color: $black;
+        padding: 15px 20px;
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
     .card {
         background: #FFFFFF;
         box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.15);
@@ -381,6 +380,9 @@ input {
         padding-top: 50px;
     }
     .pb-110px {
+        padding-bottom: 50px;
+    }
+    .pb-60px {
         padding-bottom: 50px;
     }
     .font-size-24px {

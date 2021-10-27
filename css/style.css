@@ -151,15 +151,6 @@ a {
   outline: 0 !important;
 }
 
-.btn-outline-dark {
-  font-weight: 700;
-  font-size: 20px;
-  color: #000000;
-  padding: 15px 20px;
-  background: #FFFFFF;
-  border-radius: 10px;
-}
-
 .tooltip-inner {
   max-width: 245px;
   font-weight: normal;
@@ -171,6 +162,14 @@ a {
 
 .pricing {
   background: linear-gradient(to bottom, #292929 30%, #FFFFFF 30%);
+}
+.pricing label {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  padding: 15px 20px;
+  background: #FFFFFF;
+  border-radius: 10px;
 }
 .pricing .card {
   background: #FFFFFF;
@@ -481,6 +480,10 @@ input {
   }
 
   .pb-110px {
+    padding-bottom: 50px;
+  }
+
+  .pb-60px {
     padding-bottom: 50px;
   }
 
