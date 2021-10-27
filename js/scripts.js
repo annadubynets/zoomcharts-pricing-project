@@ -26,6 +26,7 @@ if ($('.testimonials .owl-carousel').length > 0) {
     $('.testimonials .owl-carousel').owlCarousel({
         loop: true,
         autoplay: true,
+        autoHeight: true,
         dots: false,
         nav: true,
         items: 1,
