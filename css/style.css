@@ -426,6 +426,7 @@ input {
   background-image: none;
   font-family: "icomoon";
   content: "";
+  color: #000000;
   font-size: 14px;
 }
 
