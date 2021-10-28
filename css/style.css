@@ -238,13 +238,16 @@ sup {
   color: #3C4858;
 }
 .pricing .options .option .extra {
-  display: flex;
+  display: none;
   border-top: 1px dashed #B0BBC9;
   margin-top: 15px;
 }
 .pricing .options .option .extra .bootstrap-select .btn-light {
   border: none;
   padding: 14px 0 0;
+}
+.pricing .options .option input[type=checkbox]:checked + label + .extra {
+  display: flex;
 }
 .pricing .addon {
   display: none;
@@ -253,14 +256,20 @@ sup {
   font-family: "icomoon";
   content: "";
   font-size: 16px;
+  display: inline-block;
+  min-width: 20px;
   color: #EDC821;
+  cursor: pointer;
 }
 .pricing .addon:checked + label:before {
   font-family: "icomoon";
   content: "";
   font-size: 9px;
   color: #EDC821;
+  display: inline-block;
+  min-width: 20px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .request-link {

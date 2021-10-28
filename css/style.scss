@@ -136,7 +136,7 @@ sup {
                 color: #3C4858;
             }
             .extra {
-                display: flex;
+                display: none;
                 border-top: 1px dashed #B0BBC9;
                 margin-top: 15px;
                 .bootstrap-select {
@@ -145,6 +145,9 @@ sup {
                         padding: 14px 0 0;
                     }
                 }
+            }
+            input[type=checkbox]:checked + label + .extra {
+                display: flex;
             }
         }
     }
@@ -155,14 +158,20 @@ sup {
         font-family: 'icomoon';
         content: "\e901";
         font-size: 16px;
+        display: inline-block;
+        min-width: 20px;
         color: $yellow;
+        cursor: pointer;
     }
     .addon:checked+label:before {
         font-family: 'icomoon';
         content: "\e909";
         font-size: 9px;
         color: $yellow;
+        display: inline-block;
+        min-width: 20px;
         vertical-align: middle;
+        cursor: pointer;
     }
 }
 
