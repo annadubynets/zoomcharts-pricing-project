@@ -128,7 +128,7 @@ sup {
 
 .navbar {
   padding: 12px 0;
-  background: rgba(0, 0, 0, 0.84);
+  background: #000000;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.22);
 }
 .navbar .navbar-brand-img {
@@ -214,14 +214,53 @@ sup {
 }
 .pricing .dropdown-toggle::after {
   border: none;
-  content: "";
   font-family: "icomoon";
   content: "";
-  font-size: 14px;
+  font-size: 10px;
 }
 .pricing .dropdown-item.active,
 .pricing .dropdown-item:active {
   background-color: #EDC821;
+}
+.pricing .options .option {
+  border: 2px solid #edeff3;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 14px 20px;
+  transition: all 0.2s;
+  width: 100%;
+}
+.pricing .options .option label {
+  padding: 0;
+}
+.pricing .options .option.active {
+  border-color: #EDC821;
+  color: #3C4858;
+}
+.pricing .options .option .extra {
+  display: flex;
+  border-top: 1px dashed #B0BBC9;
+  margin-top: 15px;
+}
+.pricing .options .option .extra .bootstrap-select .btn-light {
+  border: none;
+  padding: 14px 0 0;
+}
+.pricing .addon {
+  display: none;
+}
+.pricing .addon + label:before {
+  font-family: "icomoon";
+  content: "";
+  font-size: 16px;
+  color: #EDC821;
+}
+.pricing .addon:checked + label:before {
+  font-family: "icomoon";
+  content: "";
+  font-size: 9px;
+  color: #EDC821;
+  vertical-align: middle;
 }
 
 .request-link {

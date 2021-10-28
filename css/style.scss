@@ -23,7 +23,7 @@ sup {
 
 .navbar {
     padding: 12px 0;
-    background: rgba(0, 0, 0, 0.84);
+    background: $black;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.22);
     .navbar-brand-img {
         height: 30px;
@@ -111,26 +111,61 @@ sup {
         }
         &::after {
             border: none;
-            content: '';
             font-family: 'icomoon';
             content: "\e903";
-            font-size: 14px;
+            font-size: 10px;
         }
     }
     .dropdown-item.active,
     .dropdown-item:active {
         background-color: $yellow;
     }
+    .options {
+        .option {
+            border: 2px solid #edeff3;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 14px 20px;
+            transition: all 0.2s;
+            width: 100%;
+            label {
+                padding: 0;
+            }
+            &.active {
+                border-color: #EDC821;
+                color: #3C4858;
+            }
+            .extra {
+                display: flex;
+                border-top: 1px dashed #B0BBC9;
+                margin-top: 15px;
+                .bootstrap-select {
+                    .btn-light {
+                        border: none;
+                        padding: 14px 0 0;
+                    }
+                }
+            }
+        }
+    }
+    .addon {
+        display: none;
+    }
+    .addon+label:before {
+        font-family: 'icomoon';
+        content: "\e901";
+        font-size: 16px;
+        color: $yellow;
+    }
+    .addon:checked+label:before {
+        font-family: 'icomoon';
+        content: "\e909";
+        font-size: 9px;
+        color: $yellow;
+        vertical-align: middle;
+    }
 }
 
-// select {
-//     background: #FFFFFF;
-//     border: 2px solid #EDEFF3;
-//     box-sizing: border-box;
-//     border-radius: 5px;
-//     padding: 14px 20px;
-//     font-size: 22px;
-// }
 .request-link {
     font-weight: normal;
     font-size: 26px;
