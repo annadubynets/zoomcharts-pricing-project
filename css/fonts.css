@@ -45,8 +45,8 @@
 
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?x3ver4');
-    src: url('../fonts/icomoon.eot?x3ver4#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?x3ver4') format('truetype'), url('../fonts/icomoon.woff?x3ver4') format('woff'), url('../fonts/icomoon.svg?x3ver4#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?95mj13');
+    src: url('../fonts/icomoon.eot?95mj13#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?95mj13') format('truetype'), url('../fonts/icomoon.woff?95mj13') format('woff'), url('../fonts/icomoon.svg?95mj13#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -68,7 +68,7 @@
 }
 
 .icon-Minus:before {
-    content: "\e910";
+    content: "\e90b";
     color: #edc821;
 }
 
