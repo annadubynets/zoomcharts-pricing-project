@@ -232,6 +232,7 @@ sup {
 }
 .pricing .options .option label {
   padding: 0;
+  width: 100%;
 }
 .pricing .options .option.active {
   border-color: #EDC821;

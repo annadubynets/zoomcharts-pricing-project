@@ -130,6 +130,7 @@ sup {
             width: 100%;
             label {
                 padding: 0;
+                width: 100%;
             }
             &.active {
                 border-color: #EDC821;
@@ -146,7 +147,7 @@ sup {
                     }
                 }
             }
-            input[type=checkbox]:checked + label + .extra {
+            input[type=checkbox]:checked+label+.extra {
                 display: flex;
             }
         }
@@ -154,12 +155,17 @@ sup {
     .addon {
         display: none;
     }
-    .addon + label {
-        user-select: none; /* standard syntax */
-        -webkit-user-select: none; /* webkit (safari, chrome) browsers */
-        -moz-user-select: none; /* mozilla browsers */
-        -khtml-user-select: none; /* webkit (konqueror) browsers */
-        -ms-user-select: none; /* IE10+ */
+    .addon+label {
+        user-select: none;
+        /* standard syntax */
+        -webkit-user-select: none;
+        /* webkit (safari, chrome) browsers */
+        -moz-user-select: none;
+        /* mozilla browsers */
+        -khtml-user-select: none;
+        /* webkit (konqueror) browsers */
+        -ms-user-select: none;
+        /* IE10+ */
         cursor: pointer;
     }
     .addon+label:before {
