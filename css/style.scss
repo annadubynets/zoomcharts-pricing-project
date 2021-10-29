@@ -132,7 +132,8 @@ sup {
                 padding: 0;
                 width: 100%;
             }
-            &.active {
+            &.active,
+            &:hover {
                 border-color: #EDC821;
                 color: #3C4858;
             }

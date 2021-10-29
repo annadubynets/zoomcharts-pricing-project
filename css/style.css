@@ -234,7 +234,7 @@ sup {
   padding: 0;
   width: 100%;
 }
-.pricing .options .option.active {
+.pricing .options .option.active, .pricing .options .option:hover {
   border-color: #EDC821;
   color: #3C4858;
 }
