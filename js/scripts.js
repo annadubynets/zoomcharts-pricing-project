@@ -2,7 +2,7 @@ $(function() {
     if ($('.company .owl-carousel').length > 0) {
         $('.company .owl-carousel').owlCarousel({
             loop: true,
-            margin: 20,
+            margin: 60,
             responsiveClass: true,
             autoplay: false,
             dots: false,
@@ -18,12 +18,12 @@ $(function() {
                     items: 4
                 },
                 1200: {
-                    items: 6
+                    items: 7
                 }
             }
         })
     }
-    
+
     if ($('.testimonials .owl-carousel').length > 0) {
         $('.testimonials .owl-carousel').owlCarousel({
             loop: true,
@@ -36,7 +36,7 @@ $(function() {
             singleItem: true,
         })
     }
-    
+
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     tooltipTriggerList.forEach(function(tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
