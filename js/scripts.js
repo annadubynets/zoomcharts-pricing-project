@@ -16,6 +16,7 @@ $(function() {
                 },
                 768: {
                     items: 4
+
                 },
                 1200: {
                     items: 7
