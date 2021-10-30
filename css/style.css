@@ -85,7 +85,7 @@ p {
 }
 
 .border-bottom {
-  border: 1px dashed #B0BBC9 !important;
+  border-bottom: 1px dashed #B0BBC9 !important;
 }
 
 .border-end {
@@ -188,7 +188,7 @@ sup {
   padding: 0 40px 60px 40px;
 }
 .pricing .bootstrap-select {
-  width: 100% !important;
+  flex-grow: 1 !important;
 }
 .pricing .bootstrap-select .dropdown-menu span {
   display: none;
@@ -243,6 +243,9 @@ sup {
   border-top: 1px dashed #B0BBC9;
   margin-top: 15px;
 }
+.pricing .options .option .extra .bootstrap-select {
+  width: 100% !important;
+}
 .pricing .options .option .extra .bootstrap-select .btn-light {
   border: none;
   padding: 14px 0 0;
@@ -274,11 +277,12 @@ sup {
   min-width: 20px;
   color: #EDC821;
   cursor: pointer;
+  transition: tra;
 }
 .pricing .addon:checked + label:before {
   font-family: "icomoon";
   content: "";
-  font-size: 9px;
+  font-size: 16px;
   color: #EDC821;
   display: inline-block;
   min-width: 20px;

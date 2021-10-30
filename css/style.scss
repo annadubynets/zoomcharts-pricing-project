@@ -82,7 +82,7 @@ sup {
         }
     }
     .bootstrap-select {
-        width: 100%!important;
+        flex-grow: 1!important;
         .dropdown-menu {
             span {
                 display: none;
@@ -142,6 +142,7 @@ sup {
                 border-top: 1px dashed #B0BBC9;
                 margin-top: 15px;
                 .bootstrap-select {
+                    width: 100%!important;
                     .btn-light {
                         border: none;
                         padding: 14px 0 0;
@@ -177,11 +178,12 @@ sup {
         min-width: 20px;
         color: $yellow;
         cursor: pointer;
+        transition: tra;
     }
     .addon:checked+label:before {
         font-family: 'icomoon';
         content: "\e909";
-        font-size: 9px;
+        font-size: 16px;
         color: $yellow;
         display: inline-block;
         min-width: 20px;
