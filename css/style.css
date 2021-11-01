@@ -401,6 +401,12 @@ input {
   color: #B0BBC9;
 }
 
+@media (min-width: 1200px) {
+  .company .owl-carousel .item img {
+    max-height: 46px;
+  }
+}
+
 .testimonials .owl-carousel .testimonials-nav-container .owl-prev {
   content: "";
   border: none;

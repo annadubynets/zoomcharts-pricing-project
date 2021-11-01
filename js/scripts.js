@@ -19,7 +19,8 @@ $(function() {
 
                 },
                 1200: {
-                    items: 7
+                    items: 7,
+                    autoWidth: false,
                 }
             }
         })
